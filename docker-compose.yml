@@ -1,0 +1,8 @@
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - 81:3333
+    volumes:
+      - ./:/home/node/app
